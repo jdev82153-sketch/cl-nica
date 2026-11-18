@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clínica — Demonstração | Orientação e acolhimento</title>
+<meta name="description" content="Orientação, acolhimento e acompanhamento para quem precisa dar o primeiro passo em direção ao tratamento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#inicio" aria-label="Clínica — Demonstração, início">
+        <svg viewBox="0 0 32 32" fill="none" stroke="var(--deep)" stroke-width="1.6" aria-hidden="true"><circle cx="16" cy="16" r="13"/><path d="M16 24V12M16 17c-4 0-6-2-6-6 4 0 6 2 6 6zm0 2c4 0 6-2 6-6-4 0-6 2-6 6z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Clínica — Demonstração
+      </a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#como">Como funciona</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#familia">Famílias</a></li>
+          <li><a href="#duvidas">Dúvidas</a></li>
+          <li><a class="btn" href="#contato" style="min-height:44px;padding:0 20px">Quero conversar</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobile" aria-label="Abrir menu">
+        <svg viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+    </div>
+    <div class="mobile" id="mobile">
+      <a href="#como">Como funciona</a><a href="#estrutura">Estrutura</a><a href="#familia">Para famílias</a><a href="#duvidas">Dúvidas frequentes</a>
+      <a class="btn" href="#contato">Quero conversar</a>
+    </div>
+  </div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 class="hero-in">Um novo começo pode começar com um pedido de ajuda.</h1>
+      <p class="lead hero-in d2">Orientação, acolhimento e acompanhamento para quem precisa dar o primeiro passo em direção ao tratamento.</p>
+      <div class="actions hero-in d2">
+        <a class="btn" href="#contato">Quero conversar</a>
+        <a class="btn ghost" href="#como">Entender como funciona</a>
+      </div>
+    </div>
+    <div class="art hero-in d2" role="img" aria-label="Ilustração de uma janela com luz da manhã sobre colinas ao fundo">
+      <svg viewBox="0 0 600 660" preserveAspectRatio="xMidYMid slice">
+        <rect width="600" height="660" fill="#DDE6E0"/>
+        <rect x="110" y="90" width="380" height="420" rx="190" fill="#EEF1E8"/>
+        <circle cx="360" cy="230" r="62" fill="#E9DDBF"/>
+        <clipPath id="w"><rect x="110" y="90" width="380" height="420" rx="190"/></clipPath>
+        <g clip-path="url(#w)"><path d="M90 390c80-60 160-70 250-30s140 10 190-20v200H90z" fill="#B9CABF"/><path d="M90 440c90-50 170-40 260 0s130 10 180-10v140H90z" fill="#8FA89A"/><path d="M90 490c110-30 200-20 280 10s110 10 160-5v120H90z" fill="#5F7F70"/></g>
+        <rect x="110" y="90" width="380" height="420" rx="190" fill="none" stroke="#F8F8F3" stroke-width="10"/>
+        <path d="M300 90v420M110 300h380" stroke="#F8F8F3" stroke-width="6"/>
+        <rect x="70" y="510" width="460" height="150" fill="#CDBFA6"/>
+        <rect x="70" y="500" width="460" height="16" fill="#E8E1D0"/>
+        <path d="M120 500c0-40 6-64 22-92M142 408c-18-6-30-20-30-40 20 4 32 20 30 40zm-10 50c-18-2-32-14-34-32 18 0 32 12 34 32zm14-26c14-10 30-12 40-6-6 16-22 22-40 6z" fill="#6E8C7C" stroke="#6E8C7C" stroke-width="3"/>
+        <rect x="100" y="496" width="46" height="34" rx="6" fill="#F4F1E8"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="trust" aria-label="Princípios de atendimento">
+  <div class="wrap">
+    <ul>
+      <li><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.500-7 10-7 10z"/></svg>Atendimento humanizado</li>
+      <li><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.500-3 7.500-7 9-4-1.500-7-4.500-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>Acompanhamento profissional</li>
+      <li><svg viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/></svg>Ambiente acolhedor</li>
+      <li><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.300 2.700-6 6-6s6 2.700 6 6"/><circle cx="17" cy="9" r="2.500"/><path d="M17 14c2.500 0 4 2 4 5"/></svg>Orientação para familiares</li>
+    </ul>
+  </div>
+</section>
+
+<section class="alone">
+  <div class="wrap">
+    <div class="box rv">
+      <h2 style="max-width:18ch">Você não precisa passar por isso sozinho.</h2>
+      <p>Pedir ajuda costuma ser a parte mais difícil. É normal sentir dúvida, medo ou até resistência. O primeiro contato existe para isso: conversar com calma, entender as possibilidades de tratamento e receber orientação, sem compromisso e sem julgamento.</p>
+      <div class="actions"><a class="btn" href="#contato">Falar com nossa equipe</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="como">
+  <div class="wrap">
+    <div class="head rv"><h2>Como funciona</h2><p>Um caminho simples, no seu ritmo. Cada etapa é conversada com você e com a família.</p></div>
+    <ol class="steps rv">
+      <li><span class="n">01</span><div><h3>Primeiro contato</h3><p>Converse com nossa equipe e explique a situação.</p></div></li>
+      <li><span class="n">02</span><div><h3>Avaliação</h3><p>Entenda quais possibilidades de atendimento podem ser consideradas.</p></div></li>
+      <li><span class="n">03</span><div><h3>Orientação</h3><p>Receba informações sobre os próximos passos.</p></div></li>
+      <li><span class="n">04</span><div><h3>Tratamento</h3><p>Quando indicado, siga para o processo de internação e acompanhamento.</p></div></li>
+    </ol>
+    <p class="note rv">Cada situação é única. Não fazemos promessas de resultado: o que oferecemos é orientação cuidadosa em cada etapa.</p>
+  </div>
+</section>
+
+<section id="estrutura" style="padding-top:0">
+  <div class="wrap">
+    <div class="head rv"><h2>Um ambiente pensado para acolher</h2><p>Espaços calmos, com luz natural e áreas de convivência. As imagens abaixo são ilustrações de demonstração.</p></div>
+    <div class="gallery rv">
+      <figure>
+        <div class="art" role="img" aria-label="Ilustração de uma sala de convivência com sofá e janela">
+          <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice"><rect width="800" height="600" fill="#E4EAE5"/><rect x="0" y="410" width="800" height="190" fill="#CDBFA6"/><rect x="470" y="80" width="250" height="250" rx="6" fill="#F3F1E6"/><path d="M595 80v250M470 205h250" stroke="#DDE3DA" stroke-width="6"/><rect x="80" y="300" width="360" height="130" rx="26" fill="#6F8C7D"/><rect x="60" y="340" width="60" height="110" rx="24" fill="#5F7F70"/><rect x="400" y="340" width="60" height="110" rx="24" fill="#5F7F70"/><rect x="130" y="260" width="110" height="80" rx="18" fill="#7E9A8B"/><rect x="260" y="270" width="90" height="70" rx="16" fill="#E2D5B6"/><ellipse cx="610" cy="470" rx="90" ry="22" fill="#B9AA8F"/><rect x="560" y="410" width="100" height="14" rx="5" fill="#8A7A5C"/><path d="M590 424v46M630 424v46" stroke="#8A7A5C" stroke-width="6"/><rect x="710" y="400" width="50" height="60" rx="8" fill="#F4F1E8"/><path d="M735 400c-30-30-34-60-24-90M735 400c24-26 34-50 28-80" stroke="#5F7F70" stroke-width="6" fill="none" stroke-linecap="round"/></svg>
+        </div><figcaption>Espaço de convivência</figcaption>
+      </figure>
+      <figure>
+        <div class="art" role="img" aria-label="Ilustração de um quarto com cama e mesa de cabeceira">
+          <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice"><rect width="800" height="600" fill="#E9ECE6"/><rect y="440" width="800" height="160" fill="#D2C6AE"/><rect x="520" y="90" width="190" height="230" rx="6" fill="#F3F1E6"/><path d="M615 90v230" stroke="#DDE3DA" stroke-width="6"/><rect x="90" y="190" width="400" height="120" rx="14" fill="#8FA89A"/><rect x="110" y="290" width="360" height="150" rx="16" fill="#F7F5EE"/><rect x="110" y="340" width="360" height="100" rx="14" fill="#A9BDB1"/><rect x="130" y="300" width="120" height="50" rx="14" fill="#fff"/><rect x="530" y="380" width="110" height="80" rx="6" fill="#B49F7A"/><circle cx="585" cy="355" r="18" fill="#E2D5B6"/><rect x="578" y="360" width="14" height="22" fill="#8A7A5C"/></svg>
+        </div><figcaption>Quarto</figcaption>
+      </figure>
+      <figure>
+        <div class="art" role="img" aria-label="Ilustração de uma área externa com árvores e um banco">
+          <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice"><rect width="800" height="600" fill="#E1EAE5"/><circle cx="600" cy="150" r="60" fill="#E9DDBF"/><path d="M0 330c150-80 300-90 440-30s250 20 360-30v330H0z" fill="#B9CABF"/><path d="M0 400c180-40 330-30 470 10s220 10 330-10v200H0z" fill="#8FA89A"/><path d="M0 480c200-30 380-20 520 10s190 0 280-10v120H0z" fill="#6E8C7C"/><path d="M300 600c20-60 60-90 120-110 60-20 120-10 140-10-50 30-110 40-150 120z" fill="#DCCFB2"/><rect x="120" y="270" width="16" height="140" fill="#7A6A4E"/><circle cx="128" cy="250" r="64" fill="#5F7F70"/><rect x="640" y="300" width="14" height="120" fill="#7A6A4E"/><circle cx="647" cy="285" r="50" fill="#4F6F60"/><rect x="480" y="440" width="120" height="12" rx="4" fill="#8A7A5C"/><path d="M490 452v26M590 452v26" stroke="#8A7A5C" stroke-width="6"/></svg>
+        </div><figcaption>Área externa</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="family" id="familia" style="padding-top:0">
+  <div class="wrap grid">
+    <div class="art rv" role="img" aria-label="Ilustração de duas poltronas em um espaço de atendimento">
+      <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice"><rect width="800" height="600" fill="#E7ECE7"/><rect y="440" width="800" height="160" fill="#CFC3AA"/><rect x="540" y="90" width="170" height="220" rx="6" fill="#F3F1E6"/><rect x="110" y="290" width="190" height="150" rx="40" fill="#6F8C7D"/><rect x="100" y="360" width="50" height="90" rx="22" fill="#5F7F70"/><rect x="260" y="360" width="50" height="90" rx="22" fill="#5F7F70"/><rect x="440" y="300" width="180" height="140" rx="40" fill="#A9BDB1"/><rect x="430" y="365" width="50" height="85" rx="22" fill="#8FA89A"/><rect x="580" y="365" width="50" height="85" rx="22" fill="#8FA89A"/><ellipse cx="370" cy="462" rx="46" ry="12" fill="#B9AA8F"/><rect x="352" y="420" width="36" height="42" rx="4" fill="#E2D5B6"/></svg>
+    </div>
+    <div class="rv">
+      <h2>Para quem está tentando ajudar alguém</h2>
+      <p style="margin-top:18px">Às vezes, o primeiro passo não é dado pela pessoa que precisa de tratamento, mas por alguém da família. Se você está procurando orientação, nossa equipe pode ajudar você a entender quais são os próximos passos.</p>
+      <div class="actions"><a class="btn" href="#contato">Quero receber orientação</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="wrap grid">
+    <div class="rv">
+      <h2>Fale com nossa equipe</h2>
+      <p style="margin-top:18px">Preencha seus dados e entraremos em contato para entender melhor como podemos orientar você.</p>
+      <p style="margin-top:14px;font-size:.95rem">Se preferir, a conversa pode começar direto pelo WhatsApp.</p>
+      <div class="actions"><a class="btn wa" data-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.300-4.200A8 8 0 1 1 8.400 19z"/><path d="M9 9c0 3 3 6 6 6l1-2-2-1-1 .8c-.8-.4-1.600-1.200-2-2l.8-1-1-2z"/></svg>Chamar no WhatsApp</a></div>
+    </div>
+    <div class="card rv">
+      <form id="form" novalidate>
+        <div class="field"><label for="nome">Nome</label><input type="text" id="nome" name="nome" autocomplete="name" required><div class="msg">Informe seu nome.</div></div>
+        <div class="field"><label for="zap">WhatsApp</label><input type="tel" id="zap" name="zap" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required><div class="msg">Informe um número com DDD, por exemplo (11) 91234-5678.</div></div>
+        <div class="field"><label for="cidade">Cidade</label><input type="text" id="cidade" name="cidade" autocomplete="address-level2" required><div class="msg">Informe sua cidade.</div></div>
+        <fieldset id="quem"><legend>Quem precisa de ajuda?</legend>
+          <div class="opts">
+            <label><input type="radio" name="quem" value="Eu"><span>Eu</span></label>
+            <label><input type="radio" name="quem" value="Familiar"><span>Familiar</span></label>
+            <label><input type="radio" name="quem" value="Outra pessoa"><span>Outra pessoa</span></label>
+          </div><div class="msg">Escolha uma das opções.</div>
+        </fieldset>
+        <div class="field"><label for="obs">Conte brevemente o que você precisa</label><textarea id="obs" name="obs"></textarea></div>
+        <button class="btn" type="submit">Solicitar contato</button>
+        <p class="small">Seus dados são usados apenas para retornar o contato. Esta é uma página de demonstração e nada é enviado.</p>
+      </form>
+      <div class="done" id="done" tabindex="-1" role="status">
+        <div class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.500l4.500 4.500L19 7.500"/></svg></div>
+        <h3>Recebemos sua solicitação</h3>
+        <p id="doneTxt">Obrigado por dar esse passo. Nossa equipe entrará em contato pelo WhatsApp informado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="duvidas">
+  <div class="wrap">
+    <div class="box">
+      <div class="head rv"><h2>Dúvidas frequentes</h2></div>
+      <div class="rv">
+        <details><summary>Como funciona o primeiro contato?<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>É uma conversa com nossa equipe, por WhatsApp ou telefone, em que você explica a situação com as suas palavras. Não há compromisso: o objetivo é ouvir, esclarecer dúvidas e indicar os próximos passos possíveis.</p></div></details>
+        <details><summary>Como saber se a internação é indicada?<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Essa indicação depende de uma avaliação feita por profissionais habilitados. Na conversa inicial, explicamos como a avaliação acontece e quais alternativas de atendimento podem ser consideradas para cada caso.</p></div></details>
+        <details><summary>A família pode buscar orientação?<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>Sim. Muitas vezes quem procura primeiro é alguém da família. Você pode entrar em contato para entender como o processo funciona e quais são os próximos passos, mesmo que a pessoa ainda não esteja pronta para conversar.</p></div></details>
+        <details><summary>Como funciona o processo de avaliação?<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>A equipe reúne informações sobre a situação atual e conversa sobre as possibilidades de atendimento. Os detalhes, como formato e duração, são explicados no primeiro contato.</p></div></details>
+        <details><summary>Quais informações preciso fornecer?<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary><div class="ans"><p>No início, apenas seu nome, um WhatsApp para retorno, a cidade e quem precisa de ajuda. O que mais você quiser contar é opcional e pode ser compartilhado com calma, ao longo da conversa.</p></div></details>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <strong style="font:500 1.15rem var(--serif);color:#fff">Clínica — Demonstração</strong>
+    <ul><li><a href="#">Política de Privacidade</a></li><li><a href="#">Termos de Uso</a></li><li><a href="#contato">Contato</a></li></ul>
+    <p>Página de demonstração com conteúdo fictício. Imagens ilustrativas.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky"><a class="btn" data-wa href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.300-4.200A8 8 0 1 1 8.400 19z"/><path d="M9 9c0 3 3 6 6 6l1-2-2-1-1 .8c-.8-.4-1.600-1.200-2-2l.8-1-1-2z"/></svg>Falar pelo WhatsApp</a></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
